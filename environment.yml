@@ -1,0 +1,17 @@
+# Mamba environment file
+name        : ezrgbenv
+channels    :
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ros-noetic-desktop
+  - pip:
+      - pyside6
+      - numpy
+      - vistutils
+      - attribox
+      - ezside
+      - pyperclip
+      - icecream
+      - pillow
